@@ -16,6 +16,7 @@ public class MagicCardFinal {
     public static void main(String[] args) {
 
         MagicalCardGameModel magicalcardgamemodel = new MagicalCardGameModel();
+         MagicalCardGameCalculator magicalcardgamecalculator=new MagicalCardGameCalculator();
         Scanner scanner = new Scanner(System.in);
         
 
@@ -24,10 +25,12 @@ public class MagicCardFinal {
         {"5", "9", "8"}};
         magicalcardgamemodel.setCardList(cardList);
        magicalcardgamemodel.cardListDisplay();
+      
+       magicalcardgamecalculator.cardListDisplay1();
        
-         System.out.println("firstShuffleColPos");
-        magicalcardgamemodel.firstShuffleColPos= scanner.nextLine();
-        System.out.println("secShuffleColPos");
+       System.out.println("firstShuffleColPos");
+       magicalcardgamemodel.firstShuffleColPos= scanner.nextLine();
+      System.out.println("secShuffleColPos");
         
         
         magicalcardgamemodel.secShuffleColPos= scanner.nextLine();
