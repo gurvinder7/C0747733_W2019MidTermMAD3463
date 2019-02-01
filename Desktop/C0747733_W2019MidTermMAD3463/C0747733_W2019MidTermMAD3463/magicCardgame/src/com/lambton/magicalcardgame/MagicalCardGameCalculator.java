@@ -9,7 +9,8 @@ package com.lambton.magicalcardgame;
  *
  * @author macstudent
  */
-public class MagicalCardGameCalculator {
+public class MagicalCardGameCalculator extends MagicalCardGameModel {
+    
 
     
     

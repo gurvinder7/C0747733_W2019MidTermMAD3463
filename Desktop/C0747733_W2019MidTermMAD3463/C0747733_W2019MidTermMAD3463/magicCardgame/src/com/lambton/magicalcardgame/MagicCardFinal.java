@@ -17,14 +17,25 @@ public class MagicCardFinal {
 
         MagicalCardGameModel magicalcardgamemodel = new MagicalCardGameModel();
         Scanner scanner = new Scanner(System.in);
-        //  System.out.println();
+        
 
         String[][] cardList = {{"A", "4", "3"},
         {"K", "7", "2"},
         {"5", "9", "8"}};
         magicalcardgamemodel.setCardList(cardList);
+       magicalcardgamemodel.cardListDisplay();
+       
+         System.out.println("firstShuffleColPos");
+        magicalcardgamemodel.firstShuffleColPos= scanner.nextLine();
+        System.out.println("secShuffleColPos");
         
-       System.out.print( magicalcardgamemodel.getCardList());
+        
+        magicalcardgamemodel.secShuffleColPos= scanner.nextLine();
+       
+        
+        
+       
+       
 
     }
 
